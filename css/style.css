@@ -1,1 +1,204 @@
 
+a {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.banner-area {
+    margin-top: 30px;
+}
+
+.banner-left{
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.banner-left h6 {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 30px
+}
+
+.banner-left h1 {
+    margin: 20px 0;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+body {
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+    left: 0;
+    background: url(../images/macaronischotel.PNG);
+    background-size: cover;
+    padding: 30px 0px;
+}
+
+.container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.footer-area {
+    background-color: #04091e;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+  line-height: 1.2em !important;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h6 {
+    font-size: 14px;
+    color: #222222;
+}
+
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 0 30px;
+    transition: all 0.5s;
+    box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
+    background-color: #ffffff;
+}
+
+#header .main-menu {
+    border-color: transparent;
+}
+
+.judul{
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: decimal-leading-zero;
+    color: #8490ff;
+    font-weight: 500;
+    line-height: 1.82em !important;
+}
+
+.main-menu {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.nav-menu li:hover {
+    background-color: transparent;
+    text-decoration: none;
+    outline: 0;
+}
+
+.nav-menu a{
+    text-align: center;
+    color: #04091e;
+}
+.nav-menu li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.nav-menu ul {
+    position: absolute;
+    display: none;
+    top: 100%;
+    right: 0;
+    z-index: 99;
+}
+
+
+.nav-menu, .nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.img {
+    border-radius: 10px;
+    width: 10%;
+    margin-right: 15px;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.section-gap {
+    margin-top: 30px;
+    padding: 120px 0;
+}
+
+.single-footer-widget h4 {
+    color: #ffffff !important;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.single-footer-widget{
+    border: none;
+    margin: 0 auto;
+    width: 80% !important;
+    font-weight: 300;
+    padding: 30px 0;
+    padding-left: 20px;
+    border-radius: 0;
+    font-size: 14px;
+    line-height: normal !important;
+    box-shadow: none;
+}
+
+li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 1.82em !important;
+}
+
+li:before {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 4px;
+    left: 0;
+}
+
+  
+  
